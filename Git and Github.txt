@@ -22,3 +22,12 @@ This will not automatically add new branch in the cloud repo, for adding this br
 
 Note: git branch will branch from that specific branch. Eg: If you are in main-branch and run "git branch" it'll create branch from main.
 The git commit messages should be imperative (like giving command) it should answer the fill in the blank "If applied to the codebase this commit will ___________."
+
+Typical Work flow:
+1. Clone the repository.
+2. Create a new branch from the main or another branch.
+3. Make your changes.
+4. Push the branch to the remote repo.
+5. Open a pull request.
+6. Merge the changes.
+7. Pull the merged changes into your local main branch.
