@@ -1,0 +1,22 @@
+Git.
+1. Create a repo, navigate to that repo in cmd and run 'git init' command.
+2. Create any folder or files inside the repo and commit to the git.
+    -> git add "filename" (for staging files of your choice)
+    -> git add . (for staging all files new and changed)
+    -> git commit -m "your message"
+3. use "git log" command to see all the commits.
+4. to rollback to previous commit use "git checkout commit id" command.
+5. to undo the rollback use "git checkout main" command.
+
+To link your local repo to cloud/remote repo (github)
+1. Open github and create repository.
+2. copy origin url and use command "git remote add origin originURL.
+3. Now to link use "git push -u origin main"
+
+Some advance git commands
+To create a branch, use "git branch branch-name"
+To switch to newly created branch use "git checkout branch-name"
+To create and immediately switch to new branch use "git checkout -b branch-name"
+To create a branch from some specific branch you should run "git branch new-branch-name source-branch"
+
+Note: git branch will branch from that specific branch. Eg: If you are in main-branch and run "git branch" it'll create branch from main.
