@@ -18,5 +18,7 @@ To create a branch, use "git branch branch-name"
 To switch to newly created branch use "git checkout branch-name"
 To create and immediately switch to new branch use "git checkout -b branch-name"
 To create a branch from some specific branch you should run "git branch new-branch-name source-branch"
+This will not automatically add new branch in the cloud repo, for adding this branch you need to publish the local branch with command "git push --set-upstream origin branch-name"
 
 Note: git branch will branch from that specific branch. Eg: If you are in main-branch and run "git branch" it'll create branch from main.
+The git commit messages should be imperative (like giving command) it should answer the fill in the blank "If applied to the codebase this commit will ___________."
